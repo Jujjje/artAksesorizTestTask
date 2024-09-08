@@ -9,8 +9,6 @@ const store = usePostsStore();
 const { setNewPost } = store;
 
 function handleOnUploadPost() {
-  console.log(1);
-
   visible.value = false;
   setNewPost({
     userId: newUserId.value,
